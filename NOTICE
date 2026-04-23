@@ -1,0 +1,35 @@
+PokerTracker Solver API
+Copyright (C) 2026 <user>
+
+This product is licensed under the GNU Affero General Public License,
+version 3. See the LICENSE file for the full text.
+
+----------------------------------------------------------------------
+Third-party components
+----------------------------------------------------------------------
+
+postflop-solver
+  License: GNU Affero General Public License v3.0 (AGPL-3.0)
+  Source:  https://github.com/b-inary/postflop-solver
+  Author:  b-inary
+
+  This project links against postflop-solver. Its source is available
+  at the URL above. Any modifications made by this project to
+  postflop-solver (if any) are distributed under the same AGPL-3.0
+  license.
+
+Additional Rust crates are listed in solver-api/Cargo.lock. Each
+retains its own license as declared by its upstream authors.
+
+----------------------------------------------------------------------
+AGPL network-use clause (section 13)
+----------------------------------------------------------------------
+
+The AGPL-3.0 extends the GPL's source-availability requirement to
+cover network interaction: if you modify this software and run the
+modified version on a server that users interact with over a network,
+you must offer those users the ability to obtain the corresponding
+source code of the version they are interacting with.
+
+Operators of this service are responsible for meeting that
+obligation. See COMPLIANCE.md for an operator checklist.

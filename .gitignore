@@ -1,0 +1,77 @@
+﻿target/
+Cargo.lock.bak
+*.swp
+*.swo
+.DS_Store
+
+# >>> claude-bulk-baseline >>>
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.Python
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.npm/
+.pnp.*
+.yarn/
+
+# Rust
+target/
+
+# Data / DBs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/*.jsonl
+data/*.log
+
+# Builds / binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Misc
+.cache/
+coverage/
+# <<< claude-bulk-baseline <<<

@@ -33,13 +33,25 @@ See [COMPLIANCE.md](COMPLIANCE.md) for an operator checklist and
 
 ## Source availability
 
-The canonical upstream source for this project is published at:
+The canonical source for this project is:
 
-> `https://github.com/<user>/PokerTracker-Solver`  *(TODO: replace with real URL)*
+> https://github.com/josephhiggins-boss/PokerTracker-Solver
+
+**Status: this repository is not yet public.** `git remote -v` already
+points here, but until this repo is pushed and set to public visibility
+on GitHub, the URL above 404s and the deployment at `solver.jo3vo.io`
+is in breach of AGPL-3.0 section 13 (see [SOURCE-OFFER.md](SOURCE-OFFER.md)
+for exactly what that means and the steps to fix it). This is not a
+"nice to have" — it blocks legal operation of the deployed service.
+
+The running service also exposes `GET /source`, which returns this URL
+(or `SOLVER_SOURCE_URL` if set) as a machine-readable source offer, per
+AGPL-3.0 section 13's "network server" method of providing access to
+Corresponding Source.
 
 If you are running a modified build, you must publish your sources at
-a location of your own and make that location discoverable to your
-users.
+a location of your own, point `SOLVER_SOURCE_URL` at it, and make that
+location discoverable to your users.
 
 ## Build
 

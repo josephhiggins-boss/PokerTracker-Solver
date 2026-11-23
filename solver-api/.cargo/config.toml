@@ -1,0 +1,14 @@
+# Phase 1 build notes
+#
+# The rustup-provided x86_64-pc-windows-gnu toolchain ships an incomplete
+# self-contained mingw (missing `as.exe`). A full GNU binutils is required
+# to link this crate (parking_lot_core / windows-sys both invoke dlltool).
+#
+# scoop install mingw  -> ~\scoop\apps\mingw\current\bin  (on the user PATH)
+#
+# If that directory isn't on PATH (fresh machine, CI), either:
+#   1) scoop install mingw    (preferred)
+#   2) uncomment the block below to hardcode the linker location
+#
+# [target.x86_64-pc-windows-gnu]
+# linker = "C:/Users/user/scoop/apps/mingw/current/bin/gcc.exe"

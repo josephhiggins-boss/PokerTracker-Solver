@@ -75,3 +75,8 @@ data/*.log
 .cache/
 coverage/
 # <<< claude-bulk-baseline <<<
+
+# Local review artifacts
+review-package/
+*.zip
+solver.out

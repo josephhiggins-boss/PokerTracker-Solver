@@ -80,3 +80,6 @@ coverage/
 review-package/
 *.zip
 solver.out
+
+# Runtime logs
+solver.out

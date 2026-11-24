@@ -21,7 +21,7 @@ serving over the network, including any modifications you have made."
 
 No, not on account of this project.
 
-The PokerTracker mobile app (and any other client you build) is a
+The PokerTracker app (and any other client you build) is a
 separate work that communicates with this server over a network
 protocol. AGPL-3.0 section 13 governs the server - people interacting
 with the *server* over the network are entitled to the *server's*
@@ -90,3 +90,10 @@ version - does not require you to publish anything.
 Open an issue using the license-question template in
 `.github/ISSUE_TEMPLATE/license-question.md`. Describe your situation
 specifically; vague questions get vague answers.
+
+## Is the source of the official build public?
+
+Yes. This repository is public at
+https://github.com/josephhiggins-boss/PokerTracker-Solver (since 2026-11-24), and a
+running copy's `GET /source` endpoint points to it unless the operator sets
+`SOLVER_SOURCE_URL` to something else. See [SOURCE-OFFER.md](SOURCE-OFFER.md).

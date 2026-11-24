@@ -11,4 +11,4 @@
 #   2) uncomment the block below to hardcode the linker location
 #
 # [target.x86_64-pc-windows-gnu]
-# linker = "C:/Users/user/scoop/apps/mingw/current/bin/gcc.exe"
+# linker = "<scoop dir>/apps/mingw/current/bin/gcc.exe"

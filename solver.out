@@ -1,7 +1,0 @@
-[2m2026-04-23T22:52:40.250420Z[0m [32m INFO[0m [2msolver_api[0m[2m:[0m solver-api listening [3maddr[0m[2m=[0m127.0.0.1:7878
-[2m2026-04-23T22:56:53.931414Z[0m [32m INFO[0m [2msolver_api::handlers[0m[2m:[0m accepted solve [3mjob_id[0m[2m=[0m8676da98-37f9-4728-ba5a-d84ea50d67ff [3mboard[0m[2m=[0mAsTd9c
-[2m2026-04-23T23:32:56.894739Z[0m [32m INFO[0m [2msolver_api::handlers[0m[2m:[0m accepted solve [3mjob_id[0m[2m=[0m4808c738-4d43-439f-9388-0ea2dc5f3aa7 [3mboard[0m[2m=[0mAsTd9c
-[2m2026-04-23T23:34:37.719182Z[0m [32m INFO[0m [2msolver_api::handlers[0m[2m:[0m accepted solve [3mjob_id[0m[2m=[0md6043e37-246e-45ee-9a77-f10cc5780ff3 [3mboard[0m[2m=[0mAsTd9c
-[2m2026-04-24T09:35:08.140609Z[0m [32m INFO[0m [2msolver_api::handlers[0m[2m:[0m accepted solve [3mjob_id[0m[2m=[0m604cbf64-1ab8-4584-9535-29c893daff55 [3mboard[0m[2m=[0mAsTd9c
-[2m2026-04-24T09:35:12.549161Z[0m [32m INFO[0m [2msolver_api::handlers[0m[2m:[0m accepted solve [3mjob_id[0m[2m=[0m73337405-8d1e-44f5-a166-bbbcc1a9b115 [3mboard[0m[2m=[0mAsTd9c
-[2m2026-04-25T02:47:42.909498Z[0m [32m INFO[0m [2msolver_api::handlers[0m[2m:[0m accepted solve [3mjob_id[0m[2m=[0m392f6903-3248-4bc7-8253-6dc196a0eaa3 [3mboard[0m[2m=[0mAsTd3h
